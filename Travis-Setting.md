@@ -16,10 +16,8 @@ You can register for an account on [Travis](https://travis-ci.org/) and bind to 
 3. There are a few environmen variables we need to add.
 ![Jietu20190409-151013](/assets/Jietu20190409-151013.jpg)
 
-> `CUSTOM_DOMAIN` is optional
-> `GIT_EMAIL` is your GitHub email
-> `GIT_NAME` is your GitHub name
-> `GITHUB_TOKEN` is the GitHub token we generated before
+`CUSTOM_DOMAIN` is optional, `GIT_EMAIL` is your GitHub email, `GIT_NAME` is your GitHub name
+, `GITHUB_TOKEN` is the GitHub token we generated before.
 
 Remember to disable the `Display value in build log` at the bottom
 ![Jietu20190409-152021](/assets/Jietu20190409-152021.jpg)

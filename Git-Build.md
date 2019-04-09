@@ -12,15 +12,15 @@ mkdir <your project>
 ```
 and then create files `SUMMARY.md` and `README.md`.
 
->content in `SUMMARY.md`
->```
->* [README](README.md)
->```
+content in `SUMMARY.md`
+```
+* [README](README.md)
+```
 
->content in `README.md`
->```
-># This is my firt markdown
->```
+content in `README.md`
+```
+# This is my firt markdown
+```
 
 ## Git Initialization
 Enter `<your project>` folder through the terminal.
