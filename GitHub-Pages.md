@@ -1,4 +1,4 @@
-## 打开项目的GitHub Pages
+## Open GitHub Pages
 GitHub provides [GitHub Pages](https://pages.github.com/) services for all repositories. You can open it in the following way:
 > 1. open a repository
 > 2. go to repository's settings

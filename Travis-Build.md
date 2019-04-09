@@ -1,25 +1,59 @@
-## 概要
-* 注册Travis
-* 设置Travis项目
+## Outline
+* gitbook-building script
+* project upload
+* Travis build gitbook
 
-## 注册Travis
-You can register for an account on [Travis](https://travis-ci.org/) and bind to GitHub.
-![Jietu20190409-101211](/assets/Jietu20190409-101211.jpg)
+## Gitbook-building Script
+Enter `<your project>` folder through the terminal, and generate travis setting file：
+```
+cd <your project PATH>
+nano .travis.yml
+```
+```
+language: node_js
 
-## 设置Travis项目
-1. Create a new repository by click `+` to choose the repository we pushed before.
-![Travis-01](/assets/Travis-01.jpg)
+node_js:
+  - "8"
 
-2. After that we need to set this repository by entering into the settings section.
-![Travis-02](/assets/Travis-02.jpg)
+cache:
+  directories:
+    - $HOME/.npm
 
-3. There are a few environmen variables we need to add.
-![Jietu20190409-151013](/assets/Jietu20190409-151013.jpg)
+before_install:
+  - export TZ='Asia/Shanghai'
 
-> `CUSTOM_DOMAIN`
-> `GIT_EMAIL` is your GitHub email
-> `GIT_NAME` is your GitHub name
-> `GITHUB_TOKEN` is the GitHub token we generated before
+install:
+  - npm install gitbook-cli -g
+  - gitbook install
 
-> Remember to disable the `Display value in build log` at the bottom
-![Jietu20190409-152021](/assets/Jietu20190409-152021.jpg)
+script:
+  - gitbook build . ./build
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: build
+  name: $GIT_NAME
+  email: $GIT_EMAIL
+  on:
+    branch: master
+```
+
+## Project Upload
+After generating the travis setting file, we need to push it on GitHub.
+```
+git add .travis.yml
+git commit -m "Travis setting file"
+git push
+```
+
+## Travis Build Gitbook
+Enter our repository in [Travis](https://travis-ci.org/) and build our repository.
+It will use our setting file `.travis.yml` to build the gitbook website.
+If everything goes well, it should be in green.
+![Jietu20190409-153645](/assets/Jietu20190409-153645.jpg)
