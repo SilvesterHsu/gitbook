@@ -57,4 +57,4 @@ Enter our repository in [Travis](https://travis-ci.org/) and build our repositor
 It will use our setting file `.travis.yml` to build the gitbook website.
 If everything goes well, it should be in green.
 
-![Jietu20190409-153645](/assets/Jietu20190409-153645.jpg)
+![Travis-Build-01](/assets/Travis-Build-01.jpg)

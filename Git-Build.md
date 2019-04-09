@@ -32,10 +32,10 @@ git commit -m "Basic gitbook files"
 ## GitHub Tocken
 We need `GITHUB_TOKEN` for Travis to build gitbook. So we generate one in [Personal access tokens](https://github.com/settings/tokens).(or you can go `Settings -> Developer settings -> Personal access tokens` to generate one).
 
-![Jietu20190409-223830](/assets/Jietu20190409-223830.jpg)
+![Git-Build-01](/assets/Git-Build-01.jpg)
 
 And make sure click every selection.
 
-![FireShot Capture 018 - Edit personal access token - github.com](/assets/FireShot%20Capture%20018%20-%20Edit%20personal%20access%20token%20-%20github.com.png)
+![Git-Build-02](/assets/Git-Build-02.png)
 
 Copy the token we generated for later use.

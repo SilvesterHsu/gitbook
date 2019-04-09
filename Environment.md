@@ -22,4 +22,4 @@ markdown-preview-enhanced
 markdown-table-editor
 ```
 
-![Jietu20190409-222222](/assets/Jietu20190409-222222.jpg)
+![Environment-01](/assets/Environment-01.jpg)

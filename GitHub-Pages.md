@@ -3,6 +3,8 @@ GitHub provides [GitHub Pages](https://pages.github.com/) services for all repos
 1. open a repository
 2. go to repository's settings
 3. scroll down to find 'GitHub Pages'
-4. choose `gh-pages branch`
+4. check whether source `gh-pages branch`
 
-![Jietu20190409-091014](/assets/Jietu20190409-091014_e1zoyol1f.jpg)
+![GitHub-Pages-01](/assets/GitHub-Pages-01.jpg)
+
+Enjoy write your own notes or manual.

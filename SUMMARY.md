@@ -4,4 +4,4 @@
   * [Travis Setting](Travis-Setting.md)
   * [Travis Build](Travis-Build.md)
   * [GitHub Pages](GitHub-Pages.md)
-  
+  * [Bug](Bug.md)
