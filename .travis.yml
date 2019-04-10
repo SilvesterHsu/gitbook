@@ -31,3 +31,4 @@ deploy:
   email: $GIT_EMAIL
   on:
     branch: master
+
