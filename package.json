@@ -1,0 +1,20 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "Gitbook is great for writing books, however, if you want to share it with others, you need a server and a domain name. This undoubtedly requires the cost of money. We can use GitHub Pages to solve this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilvesterHsu/gitbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilvesterHsu/gitbook/issues"
+  },
+  "homepage": "https://github.com/SilvesterHsu/gitbook#readme"
+}
